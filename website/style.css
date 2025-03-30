@@ -1,0 +1,58 @@
+
+/* Use ai to generate CSS styles for a simple HTML page with a header, 
+div containers, and a gallery of images. 
+The CSS should include styling for the 
+body, header, divs, links, and the gallery layout. */
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Div container styling */
+div {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Links styling */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Gallery container styling */
+.gallery {
+    display: flex;
+    justify-content: space-between; /* Distribute images to the two ends */
+    align-items: center; /* Align images vertically */
+    margin: 20px 0;
+}
+
+/* Gallery images styling */
+.gallery img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}

@@ -13,6 +13,7 @@ This is a simple Python-based HTTP server that serves static files from the `web
 
 ## Directory Structure
 
+```
 project/ 
 ├── server/ 
     ├── server.py # Main server script │ 
@@ -22,6 +23,7 @@ project/
     ├── index.html # index webpage │
 ├── client # 
 ├── logs # log file
+```
 
 ## Usage
 
@@ -42,4 +44,3 @@ The server supports the following command-line arguments:
 | `--port`            | Port number to bind the server to.       | `8080`            |
 | `--log-dir`         | Directory to store log files.            | `logs`            |
 | `--max-connections` | Maximum number of simultaneous clients.  | `5`               |
-```
