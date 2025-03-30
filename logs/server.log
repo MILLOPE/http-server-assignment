@@ -84,3 +84,4 @@
 2025-03-30 16:31:13 - INFO - 127.0.0.1 - - [30/Mar/2025:16:31:13 ] "GET /src/pic2.jpg HTTP/1.1" 200 Content_length : 56857
 2025-03-30 16:31:13 - INFO - Connection closed: ('127.0.0.1', 23516)
 2025-03-30 16:31:13 - INFO - Connection closed: ('127.0.0.1', 23517)
+2025-03-30 18:15:10 - INFO - Server started on http://localhost:8080
