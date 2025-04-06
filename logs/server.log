@@ -1,87 +1,56 @@
-2025-03-30 16:26:08 - INFO - Server started on http://localhost:8080
-2025-03-30 16:26:10 - INFO - New connection from ('127.0.0.1', 23008)
-2025-03-30 16:26:10 - INFO - Request: GET / from ('127.0.0.1', 23008)
-2025-03-30 16:26:10 - INFO - 127.0.0.1 - - [30/Mar/2025:16:26:10 ] "GET / HTTP/1.1" 200 Content_length : 794
-2025-03-30 16:26:10 - INFO - Connection closed: ('127.0.0.1', 23008)
-2025-03-30 16:26:11 - INFO - New connection from ('127.0.0.1', 23013)
-2025-03-30 16:26:11 - INFO - Request: GET /style.css from ('127.0.0.1', 23013)
-2025-03-30 16:26:11 - INFO - 127.0.0.1 - - [30/Mar/2025:16:26:11 ] "GET /style.css HTTP/1.1" 200 Content_length : 626
-2025-03-30 16:26:11 - INFO - Connection closed: ('127.0.0.1', 23013)
-2025-03-30 16:26:11 - INFO - New connection from ('127.0.0.1', 23014)
-2025-03-30 16:26:11 - INFO - Request: GET /src/image1.jpg from ('127.0.0.1', 23014)
-2025-03-30 16:26:11 - INFO - New connection from ('127.0.0.1', 23015)
-2025-03-30 16:26:11 - INFO - Request: GET /src/image2.jpg from ('127.0.0.1', 23015)
-2025-03-30 16:26:11 - INFO - New connection from ('127.0.0.1', 23016)
-2025-03-30 16:26:11 - INFO - 127.0.0.1 - - [30/Mar/2025:16:26:11 ] "GET /src/image1.jpg HTTP/1.1" 404 Content_length : 13
-2025-03-30 16:26:11 - INFO - Connection closed: ('127.0.0.1', 23014)
-2025-03-30 16:26:11 - INFO - 127.0.0.1 - - [30/Mar/2025:16:26:11 ] "GET /src/image2.jpg HTTP/1.1" 404 Content_length : 13
-2025-03-30 16:26:11 - INFO - Connection closed: ('127.0.0.1', 23015)
-2025-03-30 16:26:53 - INFO - Request: GET / from ('127.0.0.1', 23016)
-2025-03-30 16:26:53 - INFO - 127.0.0.1 - - [30/Mar/2025:16:26:53 ] "GET / HTTP/1.1" 200 Content_length : 555
-2025-03-30 16:26:53 - INFO - Connection closed: ('127.0.0.1', 23016)
-2025-03-30 16:26:54 - INFO - New connection from ('127.0.0.1', 23111)
-2025-03-30 16:26:54 - INFO - New connection from ('127.0.0.1', 23112)
-2025-03-30 16:26:54 - INFO - Request: GET /style.css from ('127.0.0.1', 23111)
-2025-03-30 16:26:54 - INFO - Request: GET /src/pic1.jpg from ('127.0.0.1', 23112)
-2025-03-30 16:26:54 - INFO - New connection from ('127.0.0.1', 23113)
-2025-03-30 16:26:54 - INFO - Request: GET /src/pic2.jpg from ('127.0.0.1', 23113)
-2025-03-30 16:26:54 - INFO - 127.0.0.1 - - [30/Mar/2025:16:26:54 ] "GET /style.css HTTP/1.1" 200 Content_length : 626
-2025-03-30 16:26:54 - INFO - Connection closed: ('127.0.0.1', 23111)
-2025-03-30 16:26:54 - INFO - 127.0.0.1 - - [30/Mar/2025:16:26:54 ] "GET /src/pic1.jpg HTTP/1.1" 200 Content_length : 109716
-2025-03-30 16:26:54 - INFO - Connection closed: ('127.0.0.1', 23112)
-2025-03-30 16:26:54 - INFO - 127.0.0.1 - - [30/Mar/2025:16:26:54 ] "GET /src/pic2.jpg HTTP/1.1" 200 Content_length : 86375
-2025-03-30 16:26:54 - INFO - Connection closed: ('127.0.0.1', 23113)
-2025-03-30 16:26:54 - INFO - New connection from ('127.0.0.1', 23114)
-2025-03-30 16:28:24 - INFO - Connection closed: ('127.0.0.1', 23114)
-2025-03-30 16:28:25 - INFO - New connection from ('127.0.0.1', 23264)
-2025-03-30 16:28:25 - INFO - Request: GET / from ('127.0.0.1', 23264)
-2025-03-30 16:28:25 - INFO - 127.0.0.1 - - [30/Mar/2025:16:28:25 ] "GET / HTTP/1.1" 200 Content_length : 555
-2025-03-30 16:28:25 - INFO - Connection closed: ('127.0.0.1', 23264)
-2025-03-30 16:28:25 - INFO - New connection from ('127.0.0.1', 23268)
-2025-03-30 16:28:25 - INFO - Request: GET /style.css from ('127.0.0.1', 23268)
-2025-03-30 16:28:25 - INFO - 127.0.0.1 - - [30/Mar/2025:16:28:25 ] "GET /style.css HTTP/1.1" 200 Content_length : 626
-2025-03-30 16:28:25 - INFO - Connection closed: ('127.0.0.1', 23268)
-2025-03-30 16:28:25 - INFO - New connection from ('127.0.0.1', 23272)
-2025-03-30 16:28:25 - INFO - New connection from ('127.0.0.1', 23273)
-2025-03-30 16:28:25 - INFO - Request: GET /src/pic1.jpg from ('127.0.0.1', 23272)
-2025-03-30 16:28:25 - INFO - Request: GET /src/pic2.jpg from ('127.0.0.1', 23273)
-2025-03-30 16:28:25 - INFO - New connection from ('127.0.0.1', 23274)
-2025-03-30 16:28:25 - INFO - 127.0.0.1 - - [30/Mar/2025:16:28:25 ] "GET /src/pic2.jpg HTTP/1.1" 200 Content_length : 56857
-2025-03-30 16:28:25 - INFO - Connection closed: ('127.0.0.1', 23273)
-2025-03-30 16:28:25 - INFO - 127.0.0.1 - - [30/Mar/2025:16:28:25 ] "GET /src/pic1.jpg HTTP/1.1" 200 Content_length : 54485
-2025-03-30 16:28:25 - INFO - Connection closed: ('127.0.0.1', 23272)
-2025-03-30 16:28:53 - INFO - Request: GET / from ('127.0.0.1', 23274)
-2025-03-30 16:28:53 - INFO - 127.0.0.1 - - [30/Mar/2025:16:28:53 ] "GET / HTTP/1.1" 200 Content_length : 555
-2025-03-30 16:28:53 - INFO - Connection closed: ('127.0.0.1', 23274)
-2025-03-30 16:28:53 - INFO - New connection from ('127.0.0.1', 23304)
-2025-03-30 16:28:53 - INFO - New connection from ('127.0.0.1', 23305)
-2025-03-30 16:28:53 - INFO - Request: GET /style.css from ('127.0.0.1', 23304)
-2025-03-30 16:28:53 - INFO - Request: GET /src/pic1.jpg from ('127.0.0.1', 23305)
-2025-03-30 16:28:53 - INFO - New connection from ('127.0.0.1', 23306)
-2025-03-30 16:28:53 - INFO - Request: GET /src/pic2.jpg from ('127.0.0.1', 23306)
-2025-03-30 16:28:53 - INFO - 127.0.0.1 - - [30/Mar/2025:16:28:53 ] "GET /style.css HTTP/1.1" 200 Content_length : 626
-2025-03-30 16:28:53 - INFO - 127.0.0.1 - - [30/Mar/2025:16:28:53 ] "GET /src/pic1.jpg HTTP/1.1" 200 Content_length : 54485
-2025-03-30 16:28:53 - INFO - Connection closed: ('127.0.0.1', 23304)
-2025-03-30 16:28:53 - INFO - Connection closed: ('127.0.0.1', 23305)
-2025-03-30 16:28:53 - INFO - 127.0.0.1 - - [30/Mar/2025:16:28:53 ] "GET /src/pic2.jpg HTTP/1.1" 200 Content_length : 56857
-2025-03-30 16:28:53 - INFO - Connection closed: ('127.0.0.1', 23306)
-2025-03-30 16:28:53 - INFO - New connection from ('127.0.0.1', 23307)
-2025-03-30 16:31:12 - INFO - Connection closed: ('127.0.0.1', 23307)
-2025-03-30 16:31:12 - INFO - New connection from ('127.0.0.1', 23501)
-2025-03-30 16:31:12 - INFO - Request: GET / from ('127.0.0.1', 23501)
-2025-03-30 16:31:12 - INFO - 127.0.0.1 - - [30/Mar/2025:16:31:12 ] "GET / HTTP/1.1" 200 Content_length : 531
-2025-03-30 16:31:12 - INFO - Connection closed: ('127.0.0.1', 23501)
-2025-03-30 16:31:13 - INFO - New connection from ('127.0.0.1', 23507)
-2025-03-30 16:31:13 - INFO - Request: GET /style.css from ('127.0.0.1', 23507)
-2025-03-30 16:31:13 - INFO - 127.0.0.1 - - [30/Mar/2025:16:31:13 ] "GET /style.css HTTP/1.1" 200 Content_length : 1290
-2025-03-30 16:31:13 - INFO - Connection closed: ('127.0.0.1', 23507)
-2025-03-30 16:31:13 - INFO - New connection from ('127.0.0.1', 23516)
-2025-03-30 16:31:13 - INFO - New connection from ('127.0.0.1', 23517)
-2025-03-30 16:31:13 - INFO - Request: GET /src/pic1.jpg from ('127.0.0.1', 23516)
-2025-03-30 16:31:13 - INFO - Request: GET /src/pic2.jpg from ('127.0.0.1', 23517)
-2025-03-30 16:31:13 - INFO - New connection from ('127.0.0.1', 23518)
-2025-03-30 16:31:13 - INFO - 127.0.0.1 - - [30/Mar/2025:16:31:13 ] "GET /src/pic1.jpg HTTP/1.1" 200 Content_length : 54485
-2025-03-30 16:31:13 - INFO - 127.0.0.1 - - [30/Mar/2025:16:31:13 ] "GET /src/pic2.jpg HTTP/1.1" 200 Content_length : 56857
-2025-03-30 16:31:13 - INFO - Connection closed: ('127.0.0.1', 23516)
-2025-03-30 16:31:13 - INFO - Connection closed: ('127.0.0.1', 23517)
-2025-03-30 18:15:10 - INFO - Server started on http://localhost:8080
+2025-04-06 18:07:52 - INFO - Server started on http://localhost:8080
+2025-04-06 18:12:57 - INFO - New connection from ('127.0.0.1', 56695)
+2025-04-06 18:12:57 - INFO - Request: GET / from ('127.0.0.1', 56695)
+2025-04-06 18:12:57 - INFO - 127.0.0.1 - - [06/Apr/2025:18:12:57 ] "GET / HTTP/1.1" 200 Content_length : 471
+2025-04-06 18:12:57 - INFO - Connection closed: ('127.0.0.1', 56695)
+2025-04-06 18:12:57 - INFO - New connection from ('127.0.0.1', 56699)
+2025-04-06 18:12:57 - INFO - Request: GET /style.css from ('127.0.0.1', 56699)
+2025-04-06 18:12:57 - INFO - 127.0.0.1 - - [06/Apr/2025:18:12:57 ] "GET /style.css HTTP/1.1" 200 Content_length : 1290
+2025-04-06 18:12:57 - INFO - Connection closed: ('127.0.0.1', 56699)
+2025-04-06 18:12:57 - INFO - New connection from ('127.0.0.1', 56700)
+2025-04-06 18:12:57 - INFO - New connection from ('127.0.0.1', 56701)
+2025-04-06 18:12:57 - INFO - Request: GET /src/pic1.jpg from ('127.0.0.1', 56700)
+2025-04-06 18:12:57 - INFO - Request: GET /src/pic2.jpg from ('127.0.0.1', 56701)
+2025-04-06 18:12:57 - INFO - New connection from ('127.0.0.1', 56702)
+2025-04-06 18:12:57 - INFO - 127.0.0.1 - - [06/Apr/2025:18:12:57 ] "GET /src/pic2.jpg HTTP/1.1" 200 Content_length : 56857
+2025-04-06 18:12:57 - INFO - 127.0.0.1 - - [06/Apr/2025:18:12:57 ] "GET /src/pic1.jpg HTTP/1.1" 200 Content_length : 54485
+2025-04-06 18:12:57 - INFO - Connection closed: ('127.0.0.1', 56701)
+2025-04-06 18:12:57 - INFO - Connection closed: ('127.0.0.1', 56700)
+2025-04-06 18:16:02 - INFO - Connection closed: ('127.0.0.1', 56702)
+2025-04-06 18:16:03 - INFO - New connection from ('127.0.0.1', 57003)
+2025-04-06 18:16:03 - INFO - Request: GET /src/pic1.jpg from ('127.0.0.1', 57003)
+2025-04-06 18:16:03 - INFO - 127.0.0.1 - - [06/Apr/2025:18:16:03 ] "GET /src/pic1.jpg HTTP/1.1" 200 Content_length : 54485
+2025-04-06 18:16:03 - INFO - Connection closed: ('127.0.0.1', 57003)
+2025-04-06 18:16:03 - INFO - New connection from ('127.0.0.1', 57008)
+2025-04-06 18:17:22 - INFO - Connection closed: ('127.0.0.1', 57008)
+2025-04-06 18:17:22 - INFO - New connection from ('127.0.0.1', 57130)
+2025-04-06 18:17:22 - INFO - Request: GET /src/xxx.jpg from ('127.0.0.1', 57130)
+2025-04-06 18:17:22 - INFO - 127.0.0.1 - - [06/Apr/2025:18:17:22 ] "GET /src/xxx.jpg HTTP/1.1" 404 Content_length : 13
+2025-04-06 18:17:22 - INFO - Connection closed: ('127.0.0.1', 57130)
+2025-04-06 18:17:23 - INFO - New connection from ('127.0.0.1', 57133)
+2025-04-06 18:27:32 - INFO - Connection closed: ('127.0.0.1', 57133)
+2025-04-06 18:27:32 - INFO - New connection from ('127.0.0.1', 57916)
+2025-04-06 18:27:32 - INFO - Request: GET /favicon.ico from ('127.0.0.1', 57916)
+2025-04-06 18:27:32 - INFO - 127.0.0.1 - - [06/Apr/2025:18:27:32 ] "GET /favicon.ico HTTP/1.1" 200 Content_length : 0
+2025-04-06 18:27:32 - INFO - Connection closed: ('127.0.0.1', 57916)
+2025-04-06 18:27:33 - INFO - New connection from ('127.0.0.1', 57918)
+2025-04-06 18:33:57 - INFO - New connection from ('127.0.0.1', 58574)
+2025-04-06 18:33:57 - INFO - Request: GET /index.html from ('127.0.0.1', 58574)
+2025-04-06 18:33:57 - INFO - 127.0.0.1 - - [06/Apr/2025:18:33:57 ] "GET /index.html HTTP/1.1" 200 Content_length : 471
+2025-04-06 18:33:57 - INFO - Connection closed: ('127.0.0.1', 58574)
+2025-04-06 18:34:38 - INFO - New connection from ('127.0.0.1', 58638)
+2025-04-06 18:34:38 - INFO - Request: GET /index.html from ('127.0.0.1', 58638)
+2025-04-06 18:34:38 - INFO - 127.0.0.1 - - [06/Apr/2025:18:34:38 ] "GET /index.html HTTP/1.1" 200 Content_length : 471
+2025-04-06 18:34:38 - INFO - Connection closed: ('127.0.0.1', 58638)
+2025-04-06 18:41:07 - INFO - New connection from ('127.0.0.1', 59117)
+2025-04-06 18:41:07 - INFO - Request: GET /src/pic1.jpg from ('127.0.0.1', 59117)
+2025-04-06 18:41:07 - INFO - 127.0.0.1 - - [06/Apr/2025:18:41:07 ] "GET /src/pic1.jpg HTTP/1.1" 200 Content_length : 54485
+2025-04-06 18:41:07 - INFO - Connection closed: ('127.0.0.1', 59117)
+2025-04-06 18:41:18 - INFO - New connection from ('127.0.0.1', 59124)
+2025-04-06 18:41:18 - INFO - Request: GET /src/pic1.jpg from ('127.0.0.1', 59124)
+2025-04-06 18:41:18 - INFO - 127.0.0.1 - - [06/Apr/2025:18:41:18 ] "GET /src/pic1.jpg HTTP/1.1" 200 Content_length : 54485
+2025-04-06 18:41:18 - INFO - Connection closed: ('127.0.0.1', 59124)
+2025-04-06 18:42:37 - INFO - New connection from ('127.0.0.1', 59225)
+2025-04-06 18:42:37 - INFO - Request: GET /src/asdf.jpg from ('127.0.0.1', 59225)
+2025-04-06 18:42:37 - INFO - 127.0.0.1 - - [06/Apr/2025:18:42:37 ] "GET /src/asdf.jpg HTTP/1.1" 404 Content_length : 13
+2025-04-06 18:42:37 - INFO - Connection closed: ('127.0.0.1', 59225)

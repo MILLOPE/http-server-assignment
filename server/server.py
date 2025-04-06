@@ -108,10 +108,17 @@ class HTTPServer:
             # Resolve the file path
             default_path = path.lstrip('/').replace('..', '')  # Prevent directory traversal
             
+            # Handle favicon.ico request
+            if path == '/favicon.ico':
+                headers = self._generate_headers(200, 'image/x-icon')
+                client_socket.send(headers.encode())
+                self._log_request(addr, method, path, 200, 0)
+                return
+
             # Default to index.html if the root path is requested
             if path == '/' or default_path == '':
                 default_path = 'index.html'
-            
+
             file_path = os.path.join(self.static_dir, default_path)
             # Check if the file exists and is not a directory
             if os.path.exists(file_path) and not os.path.isdir(file_path):
@@ -181,3 +188,5 @@ if __name__ == '__main__':
 
     server = HTTPServer(host=args.host, port=args.port, log_dir=args.log_dir)
     server.start(max_connections=args.max_connections)
+
+    
