@@ -2,6 +2,8 @@
 
 This is a simple Python-based HTTP server that serves static files from the `website` directory. The server supports configurable host, port, and logging options.
 
+This is also an assignment for 4100 :) written by M
+
 ## Features
 - Serves static files from the `website` directory.
 - Logs requests and server events to both the console and a log file.
